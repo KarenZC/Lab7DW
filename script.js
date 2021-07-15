@@ -14,8 +14,8 @@ array.forEach(element => {
     
     var a = $("<button>");
     a.text(element)
-    a.addClass("animal-button")
-    a.attr("data-type",element)
+    a.addClass("animal-button");
+    a.attr("data-type",element);
     $("#animal-buttons").append(a);
 });
 }
@@ -70,7 +70,7 @@ $("#animals").on("click", ".animal-image", function(){
  
     if (state === "still"){
  
-        $(this).attr("src", $(this).attr("data-animate"))
+        $(this).attr("src", $(this).attr("data-animate"));
         $(this).attr("data-state", "animate");
  
     }
